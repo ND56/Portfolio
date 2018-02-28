@@ -1,12 +1,4 @@
 #body {
-  /* background-image: url('./resources/testing_background_1.jpg'); */
-  /* background-image: url('./resources/testing_background_2.jpg'); */
-  /* background-image: url('./resources/testing_background_3.jpg'); */
-  /* background-image: url('./resources/testing_background_4.jpg'); */
-  /* background-image: url('./resources/testing_background_5.jpg'); */
-  /* background-image: url('./resources/testing_background_6.jpg'); */
-  /* background-image: url('./resources/testing_background_7.jpg'); */
-  /* background-image: url('./resources/testing_background_8.jpg'); */
   background-image: url('./resources/testing_background_9.jpg');
   font-family: 'Montserrat', sans-serif;
   padding-left: 0;
@@ -37,6 +29,16 @@ h2, p {
   height: 800px;
   padding-top: 300px;
   text-align: center;
+}
+
+.personal-img {
+  border-radius: 140px;
+  display: block;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  max-width: 100%;
 }
 
 .title-block {
