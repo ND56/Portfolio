@@ -5,6 +5,51 @@
   padding-right: 0;
 }
 
+.b-1, .b-2, .b-3 {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+.b-1 {
+  left: 43%;
+  bottom: 72%
+}
+
+.b-2 {
+  top: 29%;
+  left: 69%;
+}
+
+.b-3 {
+  top: 29%;
+  right: 69%;
+}
+
+.b-1:hover, .b-2:hover, .b-3:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.b-4 {
+  right: 58%;
+  bottom: 18%;
+}
+
+.b-5 {
+  left: 58%;
+  bottom: 18%;
+}
+
+.b-4, .b-5 {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+.b-4:hover, .b-5:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+}
+
 /* Making it so background image is stationary */
 .cd-fixed-bg {
 	min-height: 100%;
@@ -14,6 +59,22 @@
 	background-position: center center;
 }
 /* End */
+
+.circle-nav-button {
+  border: 0px solid black;
+  border-radius: 50%;
+  height: 0px;
+  width: 13%;
+  position: absolute;
+  text-align: center;
+  padding-top: 6.5%;
+  padding-bottom: 6.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1px;
+  padding-right: 1px;
+}
 
 .content-block {
   background-color: rgba(0, 0, 0, 0.4);
@@ -31,6 +92,15 @@ h2, p {
   text-align: center;
 }
 
+.name-header {
+  margin: 0;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 47%;
+  bottom: 25%;
+}
+
 .personal-img {
   border-radius: 140px;
   display: block;
@@ -41,8 +111,90 @@ h2, p {
   max-width: 100%;
 }
 
+.projects-block {
+  margin-bottom: 50px;
+  padding: 0px;
+}
+
+.projects-block-cell {
+  height: 200px;
+}
+
+.p-1 {
+  background-image: url('./resources/Tic-Tac-Toe.png');
+  background-size: cover;
+  opacity: .6;
+}
+
+.p-1:hover {
+  opacity: 1.0;
+}
+
+.p-2 {
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.p-3 {
+  background-color: rgba(0, 255, 0, 0.6);
+}
+
+.p-4 {
+  background-color: rgba(0, 0, 255, 0.6);
+}
+
+.p-5 {
+  background-color: rgba(100, 100, 0, 0.6);
+}
+
+.p-6 {
+  background-color: rgba(100, 0, 100, 0.6);
+}
+
 .title-block {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 15px;
   text-align: center;
+  margin-bottom: 15px;
+}
+
+.vertical-line {
+  background-color: black;
+  width: 3px;
+  height: 100px;
+  position: absolute;
+}
+
+.v-1 {
+  left: 50%;
+  bottom: 58%;
+}
+
+.v-2 {
+  transform: rotate(42deg);
+  top: 30%;
+  left: 70%;
+  /* going to need to change
+  this eventually w/ media
+  query */
+}
+
+.v-3 {
+  transform: rotate(-42deg);
+  top: 30%;
+  right: 70%;
+  /* going to need to change
+  this eventually w/ media
+  query */
+}
+
+.v-4 {
+  transform: rotate(42deg);
+  right: 65%;
+  bottom: 28%;
+}
+
+.v-5 {
+  transform: rotate(-42deg);
+  left: 65%;
+  bottom: 28%;
 }
