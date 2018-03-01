@@ -82,6 +82,12 @@
   padding: 35px;
 }
 
+.h-1, .h-2, .h-3, .h-4, .h-5, .h-6 {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
 h2, p {
   color: white;
 }
@@ -117,37 +123,46 @@ h2, p {
 }
 
 .projects-block-cell {
-  height: 200px;
+  height: 300px;
+  width: 40%;
+  float: left;
+  margin-bottom: 15px;
+  margin-top: 0;
 }
 
 .p-1 {
   background-image: url('./resources/Tic-Tac-Toe.png');
   background-size: cover;
-  opacity: .6;
-}
-
-.p-1:hover {
-  opacity: 1.0;
+  margin-left: 9%;
+  margin-right: 2%;
 }
 
 .p-2 {
-  background-color: rgba(255, 0, 0, 0.6);
+  background-color: rgba(255, 0, 0, 1);
 }
 
 .p-3 {
-  background-color: rgba(0, 255, 0, 0.6);
+  background-color: rgba(0, 255, 0, 1);
+  margin-left: 9%;
+  margin-right: 2%;
 }
 
 .p-4 {
-  background-color: rgba(0, 0, 255, 0.6);
+  background-color: rgba(0, 0, 255, 1);
 }
 
 .p-5 {
-  background-color: rgba(100, 100, 0, 0.6);
+  background-color: rgba(100, 100, 0, 1);
+  margin-left: 9%;
+  margin-right: 2%;
 }
 
 .p-6 {
-  background-color: rgba(100, 0, 100, 0.6);
+  background-color: rgba(100, 0, 100, 1);
+}
+
+.p-1:hover, .p-2:hover, .p-3:hover, .p-4:hover, .p-5:hover, .p-6:hover {
+  opacity: .6;
 }
 
 .title-block {
